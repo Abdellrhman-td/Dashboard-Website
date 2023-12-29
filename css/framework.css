@@ -1,0 +1,292 @@
+/* start box */
+.d-fa {
+    display: flex;
+    align-items: center;
+}
+.d-flex {
+    display: flex;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-5 {
+    gap: 5px;
+}
+.flex-wrap {
+    flex-wrap:wrap;
+}
+.gap-20 {
+    gap: 20px;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.d-gird { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+.d-block {
+    display: block;
+}
+/* end box */
+/* start padding + margin */
+.pr-15 {
+    padding-right: 15px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pb-10 {
+    padding-bottom:10px ;
+}
+.pb-20 {
+    padding-bottom:20px ;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-5 {
+    margin: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom:20px ;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+/* start padding + margin */
+/* start colors */
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.fac-background {
+    background-color: rgb(24 119 242 / 20%);
+}
+.twitter-background {
+    background-color: rgb(29 161 242 / 20%);
+}
+.linked-background {
+    background-color: rgb(10 102 194 / 20%);
+}
+.youtube-background {
+    background-color: rgb(255 0 0 / 20%);
+}
+.bg-blue {
+    background: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.c-black {
+    color: black;
+}
+.c-white {
+    color: white;
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+/* end colors */
+/* start position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/* end end position */
+/* start seduce classes */
+
+/* end seduce classes */
+/* start font */
+.txt-c {
+    text-align: center;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.f-s20 {
+    font-size: 20px;
+}
+.fw-bold {
+    font-weight: bold;
+}
+.l-s {
+    letter-spacing: -1px;
+}
+/* end font */
+/* start border */
+.c-pointer {
+    cursor: pointer;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.b-none {
+    border: none;
+}
+.bb-ccc {
+    border-bottom: 1px solid #ccc;
+}
+.br-eee {
+    border-right: 1px solid #eee;
+}
+.bt-eee {
+    border-top: 1px solid #eee;
+}
+.bb-eee {
+    border-bottom: 1px solid #eee;
+}
+/* end border */
+/* start media */
+@media (max-width:767px) {
+    .hide-mobile {
+        display: none;
+    }
+    .tex-c-mobile {
+        text-align: center;
+    }
+    .block-mobile {
+        display: block;
+    }
+}
+/* start media */
+/* start width + height */
+.m-w {
+    max-width: 100%;
+}
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.h-100f {
+    height: 100%;
+}
+/* end width + height */
+/* start border */
+.b-ccc {
+    border: 1px solid #ccc;
+}
+/* end border */
+/* start transition */
+.t-m {
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+.c-pointer {
+    cursor: pointer;
+}
+/* end transition */
+/* start components */
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+/* end components */
+
